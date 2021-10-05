@@ -5,7 +5,7 @@ import './Header.css';
 
 function Header() {
 
-  const [ section, setSection ] = useState('#aboutme');
+  const [ section, setSection ] = useState('#home');
   const [ buttonText, setText ] = useState('Next');
   
   const declareSection = (currentSection) => {
