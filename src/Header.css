@@ -1,0 +1,60 @@
+.Main {
+  background-color: #282c34;
+  min-height: 100vh;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.Main-white {
+  min-height: 100vh;
+  color: white;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.Main-logo {
+  margin: 10rem;
+  height: 15rem;
+}
+
+.Main-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Main-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); 
+}
+
+.Transparent {
+  background-color: transparent;
+}
+
+.NavButton {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+.Label {
+  background-color: #efefef;
+  width: 90%;
+  font-size: 1.5rem;
+}
+
+.Value {
+  text-align: end;
+}
+
+.TopNavBar {
+  background-color: #282c34;
+}
