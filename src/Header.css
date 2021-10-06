@@ -1,20 +1,31 @@
 .Main {
   background-color: #282c34;
+  background-image: url('./img/pattern.png');
+  background-blend-mode: overlay;
   min-height: 100vh;
-  padding-left: 10rem;
-  padding-right: 10rem;
 }
 
 .Main-white {
   min-height: 100vh;
-  color: white;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  background-image: url('./img/pattern.png');
 }
 
 .Main-logo {
   margin: 10rem;
   height: 15rem;
+  box-shadow: 5px 5px #282c34;
+}
+
+.skill-icon {
+  width: 70px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 5px;
+  padding: 10px;
+}
+
+.skillset-wrapper-left {
+  text-align: end;
 }
 
 .Main-header {
@@ -46,15 +57,22 @@
 }
 
 .Label {
-  background-color: #efefef;
+  margin-top:1rem;
   width: 90%;
-  font-size: 1.5rem;
 }
 
 .Value {
   text-align: end;
+  background-color: white;
 }
 
 .TopNavBar {
   background-color: #282c34;
+}
+
+.info-box {
+  padding: 1rem 3rem 3rem 3rem;
+  box-shadow: 5px 5px #282c34;
+  background-color: #efefef;
+  width: 80%;
 }
