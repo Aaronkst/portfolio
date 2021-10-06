@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Navbar, Container, Nav, Button } from 'react-bootstrap';
+import { Navbar, Container, Nav, Button, Card } from 'react-bootstrap';
 import logo from './img/coding.gif';
 import react from './img/react.png';
 import nodejs from './img/nodejs.png';
@@ -45,21 +45,21 @@ function Header() {
   return (
     <div>
       <Button variant="dark" className="NavButton" size="lg" href={section} onClick={() => {declareSection(section)}}>{buttonText}</Button>
+      <Navbar fixed="top" className="TopNavBar" variant="dark" expand="lg">
+        <Container>
+          <Navbar.Brand href="#home" onClick={() => {declareSection('#contactme')}}>Aaron's Portfolio</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="#aboutme" onClick={() => {declareSection('#home')}}>About Me</Nav.Link>
+              <Nav.Link href="#skillset" onClick={() => {declareSection('#aboutme')}}>My Skillset</Nav.Link>
+              <Nav.Link href="#project" onClick={() => {declareSection('#skillset')}}>Sample Projects</Nav.Link>
+              <Nav.Link href="#contactme" onClick={() => {declareSection('#project')}}>Contact Me</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
       <div className="Main" id="home">
-        <Navbar fixed="top" className="TopNavBar" variant="dark" expand="lg">
-          <Container>
-            <Navbar.Brand href="#home" onClick={() => {declareSection('#contactme')}}>Aaron's Portfolio</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link href="#aboutme" onClick={() => {declareSection('#home')}}>About Me</Nav.Link>
-                <Nav.Link href="#skillset" onClick={() => {declareSection('#aboutme')}}>My Skillset</Nav.Link>
-                <Nav.Link href="#project" onClick={() => {declareSection('#skillset')}}>My Projects</Nav.Link>
-                <Nav.Link href="#contactme" onClick={() => {declareSection('#project')}}>Contact Me</Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
         <header className="Main-header">
           <img src={logo} className="Main-logo" alt="logo" />
           <p>
@@ -95,10 +95,32 @@ function Header() {
         </div>
       </div>
       <div className="Main-body Main-white text-dark" id="project">
-        <p className='text-warning text-center h1'>My Projects</p>
-        <p className="text-center">
-          Projects coming soon..
-        </p>
+        <p className='text-warning text-center h1'>Sample Projects</p>
+        <div className="col-sm-6 offset-sm-3">
+          <div className='row'>
+            <Card style={{ maxWidth: '20rem' }} className="mx-auto my-2 shadow">
+              <Card.Img variant="top" src={chatbot} />
+              <Card.Body>
+                <Card.Title>Viber Bot</Card.Title>
+                <Card.Text>
+                  <small>A simple chatbot with minimal features made to showcase my expertise in that area. Please give it a try.</small>
+                </Card.Text>
+                <Button variant="warning" target="_blank" href="viber://pa?chatURI=aaroncb&context=portfolio&text=Hello">Visit Project &#8594;</Button>
+                <Button variant="secondary" className="mx-2" target="_blank" href="https://github.com/Aaronkst/viberchatbot">Github &#8594;</Button>
+              </Card.Body>
+            </Card>
+            <Card style={{ maxWidth: '20rem' }} className="mx-auto my-2 shadow">
+              <Card.Img variant="top" src={react} />
+              <Card.Body>
+                <Card.Title>Portfolio</Card.Title>
+                <Card.Text>
+                  <small>Yes, this very portfolio is made with create-react-app. Check the Github repostiory for more details!</small>
+                </Card.Text>
+                <Button variant="secondary" target="_blank" href="https://github.com/Aaronkst/portfolio">Github &#8594;</Button>
+              </Card.Body>
+            </Card>
+          </div>
+        </div>
       </div>
       <div className="Main-body Main" id="contactme">
 
@@ -106,10 +128,10 @@ function Header() {
         <p className='text-white text-center h5'>Don't be a stranger, Lets work together! Reach me out at</p>
         <br/>
         <p className='text-center'>
-          <span className='text-white h6'>Email</span><br/><a href='mailto:aaron.kst99@gmail.com' className='text-decoration-none'><code><FontAwesomeIcon icon={faEnvelope} /> aaron.kst99@gmail.com</code></a>         
+          <span className='text-white h6'>Email</span><br/><a href='mailto:aaron.kst99@gmail.com' target="_blank" className='text-decoration-none'><code className="h5"><FontAwesomeIcon icon={faEnvelope} /> aaron.kst99@gmail.com</code></a>         
         </p>
         <p className='text-center'>
-          <span className='text-white h6'>Phone</span><br/><code><FontAwesomeIcon icon={faMobile} /> (+95) 9 976 328 625 <br/><FontAwesomeIcon icon={faMobile} /> (+95) 9 250 154 050</code>
+          <span className='text-white h6'>Phone</span><br/><code className="h5"><FontAwesomeIcon icon={faMobile} /> (+95) 9 976 328 625 <br/><FontAwesomeIcon icon={faMobile} /> (+95) 9 250 154 050</code>
         </p>
       </div>
     </div>
