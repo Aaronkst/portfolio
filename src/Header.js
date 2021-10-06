@@ -68,24 +68,25 @@ function Header() {
         </header>
       </div>
       <div className="Main-white Main-body" id="aboutme">
-        <code className="text-center h3">About Me</code>
+        <p className="text-center h1 text-warning">About Me</p>
         <div className="col-sm-4 mx-auto info-box">
-          <p className='text-center'>Hi! I'm <strong className='text-primary'>Khant Si Thu</strong> and you can call me <strong className='strong text-primary'>Aaron</strong>. I'm a Pices born on <strong className='strong text-primary'>11th March 1999</strong> and I live in <strong className='strong text-primary'>Yangon</strong>. My hobby is obviously (duh~) coding and developing from <strong className='strong text-primary'>complex webapps</strong> with huge scalability and database to <strong className='strong text-primary'>simple one page sites</strong> (Just like this very one!). You will be able to browse through my pervious works below. Hope you enjoy your stay :)</p>
+          <p className='text-center'>Hi! I'm <strong className='text-primary'>Khant Si Thu</strong> and you can call me <strong className='strong text-primary'>Aaron</strong>. I'm a Pices born on <strong className='strong text-primary'>11th March 1999</strong> and I live in <strong className='strong text-primary'>Yangon</strong>. My hobby is obviously (duh~) coding and developing from <strong className='strong text-primary'>complex webapps</strong> with huge scalability and database to <strong className='strong text-primary'>simple one page sites</strong> (Just like this very one)! You will be able to browse through my pervious works below. Hope you enjoy your stay</p>
         </div>
       </div>
       <div className="Main-body Main" id="skillset">
-        <div className="col-sm-4 my-2 mx-auto px-4">
+        <p className='text-warning text-center h1'>My skillset</p>
+        <div className="col-sm-4 my-2 offset-sm-4 px-4">
           <p className='text-white'>
-            <span className="h4">Databases</span><br/>
+            <span className="h6">Databases</span><br/>
             <code><b>No-SQL</b>: Firebase, Mongodb <br/><b>SQL</b>: MySQL</code>
           </p>
           <img className="skill-icon" src={mongodb} alt="mongodb" />
           <img className="skill-icon" src={mysql} alt="mysql" />
           <img className="skill-icon" src={firebase} alt="firebase" />
         </div>
-        <div className="col-sm-4 mx-auto my-2 px-4">
+        <div className="col-sm-4 my-2 offset-sm-4 px-4">
           <p className='text-white'>
-            <span className="h4">Language and Frameworks</span><br/>
+            <span className="h6">Language and Frameworks</span><br/>
             <code><b>Language</b>: NodeJS, PHP <br/><b>Backend</b>: ExpressJS<br/><b>Frontend</b>: ReactJS, ReactNative, Social Media Chatbots<br/><b>Frameworks</b>: SailsJS, NextJS, EJS</code>
           </p>
           <img className="skill-icon" src={nodejs} alt="nodejs" />
@@ -94,13 +95,14 @@ function Header() {
         </div>
       </div>
       <div className="Main-body Main-white text-dark" id="project">
+        <p className='text-warning text-center h1'>My Projects</p>
         <p className="text-center">
           Projects coming soon..
         </p>
       </div>
       <div className="Main-body Main" id="contactme">
 
-        <p className='text-warning text-center h1'>Contact Me :)</p>
+        <p className='text-warning text-center h1'>Contact Me</p>
         <p className='text-white text-center h5'>Don't be a stranger, Lets work together! Reach me out at</p>
         <br/>
         <p className='text-center'>
