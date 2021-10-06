@@ -59,10 +59,12 @@
 .Label {
   margin-top:1rem;
   width: 90%;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .Value {
-  text-align: end;
+  text-align: center;
   background-color: white;
 }
 
@@ -71,7 +73,7 @@
 }
 
 .info-box {
-  padding: 1rem 3rem 3rem 3rem;
+  padding: 1rem 4rem 4rem 4rem;
   box-shadow: 5px 5px #282c34;
   background-color: #efefef;
 }

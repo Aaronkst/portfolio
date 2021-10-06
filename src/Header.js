@@ -103,7 +103,7 @@ function Header() {
         </div>
       </div>
       <div className="Main-body Main" id="skillset">
-        <div className="col-sm-6 skillset-wrapper-left my-2 px-2">
+        <div className="col-sm-6 skillset-wrapper-left my-2 px-4">
           <p className='text-white'>
             <span className="h4">Databases</span><br/>
             <code><b>No-SQL</b>: Firebase, Mongodb <br/><b>SQL</b>: MySQL</code>
@@ -112,7 +112,7 @@ function Header() {
           <img className="skill-icon" src={mysql} alt="mysql" />
           <img className="skill-icon" src={firebase} alt="firebase" />
         </div>
-        <div className="col-sm-6 offset-sm-6 my-2 px-2">
+        <div className="col-sm-6 offset-sm-6 my-2 px-4">
           <p className='text-white'>
             <span className="h4">Language and Frameworks</span><br/>
             <code><b>Language</b>: NodeJS, PHP <br/><b>Backend</b>: ExpressJS<br/><b>Frontend</b>: ReactJS, ReactNative, Social Media Chatbots<br/><b>Frameworks</b>: SailsJS, NextJS, EJS</code>
