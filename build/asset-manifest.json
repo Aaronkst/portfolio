@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b739b0a5.chunk.css",
+    "main.js": "/static/js/main.7383a2c7.chunk.js",
+    "main.js.map": "/static/js/main.7383a2c7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1d4e1eff.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1d4e1eff.js.map",
+    "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
+    "static/js/2.45e9aeb9.chunk.js": "/static/js/2.45e9aeb9.chunk.js",
+    "static/js/2.45e9aeb9.chunk.js.map": "/static/js/2.45e9aeb9.chunk.js.map",
+    "static/js/3.f8cfede4.chunk.js": "/static/js/3.f8cfede4.chunk.js",
+    "static/js/3.f8cfede4.chunk.js.map": "/static/js/3.f8cfede4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.b739b0a5.chunk.css.map": "/static/css/main.b739b0a5.chunk.css.map",
+    "static/js/2.45e9aeb9.chunk.js.LICENSE.txt": "/static/js/2.45e9aeb9.chunk.js.LICENSE.txt",
+    "static/media/chatbot.6c39499d.jpg": "/static/media/chatbot.6c39499d.jpg",
+    "static/media/coding.3cb057db.gif": "/static/media/coding.3cb057db.gif",
+    "static/media/mysql-logo.83910f5a.png": "/static/media/mysql-logo.83910f5a.png",
+    "static/media/nodejs.478c590a.png": "/static/media/nodejs.478c590a.png",
+    "static/media/Header.css": "/static/media/pattern.0694bcab.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d4e1eff.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.45e9aeb9.chunk.js",
+    "static/css/main.b739b0a5.chunk.css",
+    "static/js/main.7383a2c7.chunk.js"
+  ]
+}
