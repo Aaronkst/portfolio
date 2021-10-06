@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.50ab9604.chunk.css",
+    "main.css": "/static/css/main.a4c087e5.chunk.css",
     "main.js": "/static/js/main.92c76868.chunk.js",
     "main.js.map": "/static/js/main.92c76868.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.88fe8125.js",
@@ -12,7 +12,7 @@
     "static/js/3.334f8660.chunk.js.map": "/static/js/3.334f8660.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.50ab9604.chunk.css.map": "/static/css/main.50ab9604.chunk.css.map",
+    "static/css/main.a4c087e5.chunk.css.map": "/static/css/main.a4c087e5.chunk.css.map",
     "static/js/2.cbe552df.chunk.js.LICENSE.txt": "/static/js/2.cbe552df.chunk.js.LICENSE.txt",
     "static/media/chatbot.6c39499d.jpg": "/static/media/chatbot.6c39499d.jpg",
     "static/media/coding.3cb057db.gif": "/static/media/coding.3cb057db.gif",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.88fe8125.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.cbe552df.chunk.js",
-    "static/css/main.50ab9604.chunk.css",
+    "static/css/main.a4c087e5.chunk.css",
     "static/js/main.92c76868.chunk.js"
   ]
 }
