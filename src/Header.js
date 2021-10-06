@@ -7,6 +7,8 @@ import mongodb from './img/mongodb.png';
 import mysql from './img/mysql-logo.png';
 import firebase from './img/firebase.png';
 import chatbot from './img/chatbot.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faMobile } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
 function Header() {
@@ -68,42 +70,11 @@ function Header() {
       <div className="Main-white Main-body" id="aboutme">
         <code className="text-center h3">About Me</code>
         <div className="col-sm-4 mx-auto info-box">
-          <div className="Label">
-            <p className='h4'>
-              Name
-            </p>
-          </div>
-          <div className='Value'>
-            <code>Khant Si Thu</code>
-          </div>
-          <div className="Label">
-            <p className='h4'>
-              D.O.B
-            </p>
-          </div>
-          <div className='Value'>
-            <code>11 - Mar - 1999</code>
-          </div>
-          <div className="Label">
-            <p className='h4'>
-              Gender
-            </p>
-          </div>
-          <div className='Value'>
-            <code>Male</code>
-          </div>
-          <div className="Label">
-            <p className='h4'>
-              Residence
-            </p>
-          </div>
-          <div className='Value'>
-            <code>Yangon</code>
-          </div>
+          <p className='text-center'>Hi! I'm <strong className='text-primary'>Khant Si Thu</strong> and you can call me <strong className='strong text-primary'>Aaron</strong>. I'm a Pices born on <strong className='strong text-primary'>11th March 1999</strong> and I live in <strong className='strong text-primary'>Yangon</strong>. My hobby is obviously (duh~) coding and developing from <strong className='strong text-primary'>complex webapps</strong> with huge scalability and database to <strong className='strong text-primary'>simple one page sites</strong> (Just like this very one!). You will be able to browse through my pervious works below. Hope you enjoy your stay :)</p>
         </div>
       </div>
       <div className="Main-body Main" id="skillset">
-        <div className="col-sm-6 skillset-wrapper-left my-2 px-4">
+        <div className="col-sm-4 my-2 mx-auto px-4">
           <p className='text-white'>
             <span className="h4">Databases</span><br/>
             <code><b>No-SQL</b>: Firebase, Mongodb <br/><b>SQL</b>: MySQL</code>
@@ -112,7 +83,7 @@ function Header() {
           <img className="skill-icon" src={mysql} alt="mysql" />
           <img className="skill-icon" src={firebase} alt="firebase" />
         </div>
-        <div className="col-sm-6 offset-sm-6 my-2 px-4">
+        <div className="col-sm-4 mx-auto my-2 px-4">
           <p className='text-white'>
             <span className="h4">Language and Frameworks</span><br/>
             <code><b>Language</b>: NodeJS, PHP <br/><b>Backend</b>: ExpressJS<br/><b>Frontend</b>: ReactJS, ReactNative, Social Media Chatbots<br/><b>Frameworks</b>: SailsJS, NextJS, EJS</code>
@@ -128,14 +99,15 @@ function Header() {
         </p>
       </div>
       <div className="Main-body Main" id="contactme">
-        <p className='text-white text-center'>
-          <span className='h4'>Email</span> <br/>
-          <a href='mailto:aaron.kst99@gmail.com' className='text-decoration-none'><code>aaron.kst99@gmail.com</code></a>
+
+        <p className='text-warning text-center h1'>Contact Me :)</p>
+        <p className='text-white text-center h5'>Don't be a stranger, Lets work together! Reach me out at</p>
+        <br/>
+        <p className='text-center'>
+          <span className='text-white h6'>Email</span><br/><a href='mailto:aaron.kst99@gmail.com' className='text-decoration-none'><code><FontAwesomeIcon icon={faEnvelope} /> aaron.kst99@gmail.com</code></a>         
         </p>
-        <p className='text-white text-center'>
-        <span className='h4'>Phone</span> <br/> 
-          <code>(+95) 9 976 328 625</code> <br/>
-          <code>(+95) 9 250 154 050</code>
+        <p className='text-center'>
+          <span className='text-white h6'>Phone</span><br/><code><FontAwesomeIcon icon={faMobile} /> (+95) 9 976 328 625 <br/><FontAwesomeIcon icon={faMobile} /> (+95) 9 250 154 050</code>
         </p>
       </div>
     </div>

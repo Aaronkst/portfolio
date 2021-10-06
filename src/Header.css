@@ -24,10 +24,6 @@
   padding: 10px;
 }
 
-.skillset-wrapper-left {
-  text-align: end;
-}
-
 .Main-header {
   text-align: center;
   display: flex;
@@ -56,24 +52,11 @@
   right: 30px;
 }
 
-.Label {
-  margin-top:1rem;
-  width: 90%;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.Value {
-  text-align: center;
-  background-color: white;
-}
-
 .TopNavBar {
   background-color: #282c34;
 }
 
 .info-box {
-  padding: 1rem 4rem 4rem 4rem;
-  box-shadow: 5px 5px #282c34;
+  padding: 1rem 2rem 2rem 2rem;
   background-color: #efefef;
 }

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.de161a49.chunk.css",
-    "main.js": "/static/js/main.efd9e2e4.chunk.js",
-    "main.js.map": "/static/js/main.efd9e2e4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.88fe8125.js",
-    "runtime-main.js.map": "/static/js/runtime-main.88fe8125.js.map",
+    "main.css": "/static/css/main.8815ec14.chunk.css",
+    "main.js": "/static/js/main.9fb7895e.chunk.js",
+    "main.js.map": "/static/js/main.9fb7895e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bc8920ff.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bc8920ff.js.map",
     "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
-    "static/js/2.cbe552df.chunk.js": "/static/js/2.cbe552df.chunk.js",
-    "static/js/2.cbe552df.chunk.js.map": "/static/js/2.cbe552df.chunk.js.map",
-    "static/js/3.334f8660.chunk.js": "/static/js/3.334f8660.chunk.js",
-    "static/js/3.334f8660.chunk.js.map": "/static/js/3.334f8660.chunk.js.map",
+    "static/js/2.860a6fff.chunk.js": "/static/js/2.860a6fff.chunk.js",
+    "static/js/2.860a6fff.chunk.js.map": "/static/js/2.860a6fff.chunk.js.map",
+    "static/js/3.3a5cfc4c.chunk.js": "/static/js/3.3a5cfc4c.chunk.js",
+    "static/js/3.3a5cfc4c.chunk.js.map": "/static/js/3.3a5cfc4c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.de161a49.chunk.css.map": "/static/css/main.de161a49.chunk.css.map",
-    "static/js/2.cbe552df.chunk.js.LICENSE.txt": "/static/js/2.cbe552df.chunk.js.LICENSE.txt",
+    "static/css/main.8815ec14.chunk.css.map": "/static/css/main.8815ec14.chunk.css.map",
+    "static/js/2.860a6fff.chunk.js.LICENSE.txt": "/static/js/2.860a6fff.chunk.js.LICENSE.txt",
     "static/media/chatbot.6c39499d.jpg": "/static/media/chatbot.6c39499d.jpg",
     "static/media/coding.3cb057db.gif": "/static/media/coding.3cb057db.gif",
     "static/media/mysql-logo.83910f5a.png": "/static/media/mysql-logo.83910f5a.png",
@@ -21,10 +21,10 @@
     "static/media/Header.css": "/static/media/pattern.0694bcab.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.88fe8125.js",
+    "static/js/runtime-main.bc8920ff.js",
     "static/css/2.c1256375.chunk.css",
-    "static/js/2.cbe552df.chunk.js",
-    "static/css/main.de161a49.chunk.css",
-    "static/js/main.efd9e2e4.chunk.js"
+    "static/js/2.860a6fff.chunk.js",
+    "static/css/main.8815ec14.chunk.css",
+    "static/js/main.9fb7895e.chunk.js"
   ]
 }
