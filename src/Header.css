@@ -5,15 +5,20 @@
   min-height: 100vh;
 }
 
+.faflip {
+  animation: flipInY 0.9s ease infinite;
+}
+
 .Main-white {
   min-height: 100vh;
   background-image: url('./img/pattern.png');
+  animation: bg-move 8s normal 0s infinite;
 }
 
 .Main-logo {
   margin: 10rem;
   height: 15rem;
-  box-shadow: 5px 5px #282c34;
+  box-shadow: 15px 15px #282c34;
 }
 
 .skill-icon {
@@ -22,6 +27,25 @@
   border-radius: 20%;
   margin-right: 10px;
   padding: 10px;
+  animation: leftright 1.5s ease infinite;
+}
+
+code span {
+  position: relative;
+  display: inline-block;
+  animation: bounce 1s infinite;
+}
+
+code span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+code span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+code span:nth-child(4) {
+  animation-delay: 0.6s;
 }
 
 .Main-header {
@@ -38,6 +62,7 @@
   flex-direction: column;
   width: 100%;
   justify-content: center;
+  font-size: calc(15px + 1vmin); 
 }
 
 .Transparent {
@@ -46,17 +71,82 @@
 
 .NavButton {
   position: fixed;
-  bottom: 20px;
+  bottom: 30px;
   right: 30px;
   z-index: 10;
 }
 
 .TopNavBar {
   background-color: #282c34;
+  opacity: 75%;
 }
 
 .info-box {
   padding: 2rem;
-  background-color: #efefef;
+  background-color: #fff;
   margin: 3px;
 }
+
+@keyframes leftright {
+  0% {
+    transform: translateX(-5%);
+  }
+
+  50% {
+    transform: translateX(5%);
+  }
+
+  100% {
+    transform: translateX(-5%);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(20px)
+  }
+  100% {
+    transform: translateY(-10px)
+  }
+}
+
+@keyframes bg-move {
+  0% {
+    background-position-x: 5rem;
+  }
+  25% {
+    background-position-y: 10rem;
+    background-position-x: 5rem;
+  }
+  50% {
+    background-position-x: -5rem;
+    background-position-y: 10rem;
+  }
+  75% {
+    background-position-x: -5rem;
+    background-position-y: -5rem;
+  }
+  100% {
+    background-position-x: 5rem;
+    background-position-y: -5rem;
+  }
+}
+
+@keyframes flipInY {
+  25% {
+     transform: perspective(400px) rotateY(90deg);
+  }
+  50% {
+     transform: perspective(400px) rotateY(0deg);
+     color: #282c34;
+  }
+  75% {
+     transform: perspective(400px) rotateY(90deg);
+  }
+  100% {
+     transform: perspective(400px) rotateY(0deg);
+  }
+} 
