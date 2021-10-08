@@ -46,7 +46,7 @@ function Header() {
     <div>
       <Button variant="dark" className="NavButton" size="lg" href={section} onClick={() => {declareSection(section)}}>{buttonText}</Button>
       <div className="Main" id="home">
-        <Navbar fixed="top" className="TopNavBar" variant="dark" expand="lg">
+        <Navbar sticky="top" className="TopNavBar" variant="dark" expand="lg">
           <Container>
             <Navbar.Brand href="#home" onClick={() => {declareSection('#contactme')}}>Aaron's Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
