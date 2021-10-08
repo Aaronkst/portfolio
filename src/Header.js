@@ -121,6 +121,16 @@ function Header() {
                 <Button variant="secondary" target="_blank" rel="noreferrer" href="https://github.com/Aaronkst/portfolio">Github &#8594;</Button>
               </Card.Body>
             </Card>
+            <Card style={{ maxWidth: '20rem' }} className="mx-auto my-2 shadow">
+              <Card.Img variant="top" src={react} />
+              <Card.Body>
+                <Card.Title>My Template</Card.Title>
+                <Card.Text>
+                  <small>A simple template I made for Estates Agency</small>
+                </Card.Text>
+                <Button variant="secondary" target="_blank" rel="noreferrer" href="https://kst-templates.netlify.app/hotel">Preview &#8594;</Button>
+              </Card.Body>
+            </Card>
           </div>
         </div>
       </div>
