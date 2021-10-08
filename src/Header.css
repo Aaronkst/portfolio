@@ -11,6 +11,8 @@
 
 .Main-white {
   min-height: 100vh;
+  background-color: #1f1f2f;
+  background-blend-mode: overlay;
   background-image: url('./img/pattern.png');
   animation: bg-move 8s normal 0s infinite;
 }
