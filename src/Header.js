@@ -128,7 +128,7 @@ function Header() {
                 <Card.Text>
                   <small>A simple template I made for Estates Agency</small>
                 </Card.Text>
-                <Button variant="secondary" target="_blank" rel="noreferrer" href="https://kst-templates.netlify.app/hotel">Preview &#8594;</Button>
+                <Button variant="warning" target="_blank" rel="noreferrer" href="https://kst-template.netlify.app/hotel">Visit Project &#8594;</Button>
               </Card.Body>
             </Card>
           </div>
