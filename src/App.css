@@ -3,10 +3,8 @@
   background-image: url('./img/pattern.png');
   background-blend-mode: overlay;
   min-height: 100vh;
-}
-
-.faflip {
-  animation: flipInY 0.9s ease infinite;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .Main-white {
@@ -14,7 +12,8 @@
   background-color: #1f1f2f;
   background-blend-mode: overlay;
   background-image: url('./img/pattern.png');
-  animation: bg-move 8s normal 0s infinite;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .Main-logo {
@@ -64,7 +63,7 @@ code span:nth-child(4) {
   flex-direction: column;
   width: 100%;
   justify-content: center;
-  font-size: calc(15px + 1vmin); 
+  font-size: calc(10px + 1vmin); 
 }
 
 .Transparent {
@@ -104,50 +103,12 @@ code span:nth-child(4) {
 
 @keyframes bounce {
   0% {
-    transform: translateY(-10px);
+    transform: translateY(0px);
   }
   50% {
-    transform: translateY(20px)
+    transform: translateY(-20px)
   }
   100% {
-    transform: translateY(-10px)
+    transform: translateY(0px)
   }
 }
-
-@keyframes bg-move {
-  0% {
-    background-position-x: 5rem;
-  }
-  25% {
-    background-position-y: 10rem;
-    background-position-x: 5rem;
-  }
-  50% {
-    background-position-x: -5rem;
-    background-position-y: 10rem;
-  }
-  75% {
-    background-position-x: -5rem;
-    background-position-y: -5rem;
-  }
-  100% {
-    background-position-x: 5rem;
-    background-position-y: -5rem;
-  }
-}
-
-@keyframes flipInY {
-  25% {
-     transform: perspective(400px) rotateY(90deg);
-  }
-  50% {
-     transform: perspective(400px) rotateY(0deg);
-     color: #282c34;
-  }
-  75% {
-     transform: perspective(400px) rotateY(90deg);
-  }
-  100% {
-     transform: perspective(400px) rotateY(0deg);
-  }
-} 
