@@ -139,7 +139,7 @@ function App() {
                 <Card.Text>
                   <small>A Digital Marketing and IT Solutions service.</small>
                 </Card.Text>
-                <Button variant="warning" target="_blank" rel="noreferrer" href="https://a-t.netlify.app">Visit Site &#8594;</Button>
+                <Button variant="warning" target="_blank" rel="noreferrer" href="https://addtech.netlify.app">Visit Site &#8594;</Button>
               </Card.Body>
             </Card>
           </div>
