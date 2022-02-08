@@ -20,3 +20,14 @@ body {
 .content-slug {
   background-color: #212121 !important;
 }
+
+hr {
+  color: white !important;
+}
+
+@media only screen and (max-width : 576px)
+{
+  .x-scroll > .row {
+    overflow-x: auto !important;
+  }
+}
