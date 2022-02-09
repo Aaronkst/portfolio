@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-    <Navbar className="bg-dark" variant="dark" expand="lg">
+    <Navbar sticky="top" className="bg-dark" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand href="#home" >Aaron's <ReactRotatingText onDeletingEnd={changeColor} color={colors[color]} cursor={false} items={['Portfolio', 'Showcase', 'Profile', 'Space']} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
